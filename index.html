@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        font-family: 'poppins',sans-serif;
+    }
+    body{
+        background-image: url("images/bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;  
+        position: relative;
+        
+    }
+    .navbar{
+        background-color: black;
+        height: 4.5rem;
+        width: 100%;  
+        position: fixed ;
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    #navbar_content{
+       padding: 1rem;
+       display: flex;
+       align-items: center;
+       padding: 1.5rem;
+       
+       
+       
+    }
+    #logo{
+        height: 1.8rem;
+        width:150px;
+    }
+    .line{
+        background-color: white;
+        height: 2rem;
+        width: 1px;
+        margin-left: 20px;
+    }
+    .navbar li{
+        list-style: none;
+        display: inline-block;
+        
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 0px 15px;
+        cursor: pointer;
+    }
+    .btn{
+        
+        border-radius: 5px;
+        margin: 18px;
+        padding: 10px 30px;
+        background-color: #ca11f4;
+        color: white;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        
+    }
+    
+    .text{
+        color: white;
+        text-align: center;
+        font-size: larger;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(150%);  
+    }
+
+
+
+</style>
+<body>
+    <div class="navbar">
+        <div id="navbar_content">
+            <img id="logo" src="./images/logo.png" alt="logo">
+            <div class="line"></div>
+            <ul>
+                <li><a href="">Apps</a></li>
+                <li><a href="">DAO</a></li>
+                <li><a href="">Technology</a></li>
+                <li><a href="">Token</a></li>
+                <li><a href="">Contributors</a></li>
+            </ul>
+        </div>
+        <button class="btn">BUY 1 Token</button>
+    </div>
+
+    <div class="text">
+        <h1>Lets build a better <br> tommorrow,together. </h1>
+        <p>Buy 1 Token,Join The DAO.Change The World</p>
+        <button class="btn">Request Early Access</button>
+    </div>
+   
+    
+   
+</body>
+</html>
